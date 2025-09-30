@@ -38,7 +38,7 @@ async def handle_number(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     # 替换成你的 Bot Token
-    TOKEN = "8145830287:AAHCQ6Eej1f4EC1n0-UzRQhkBXv4zL130x8"
+    TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
 
     app = ApplicationBuilder().token(TOKEN).build()
 
@@ -50,3 +50,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
